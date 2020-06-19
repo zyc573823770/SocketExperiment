@@ -1,6 +1,11 @@
 # SocketExperiment
 2020吉林大学计算机网络实验课
 ***
+1. 协议分析
+    * SocketExperiment.cpp
+    * header.h
+2. FTP并发
+***
 实验指导书上偏移计算有误，实际情况需要百度TCP、IP、UDP的头部
 根据头部各个字段的长度通过位运算得到值，某些特殊字段是网络流
 的形式，需要ntoh*()函数大家族进行转换，然后如果想实现wireshark
