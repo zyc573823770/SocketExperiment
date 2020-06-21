@@ -5,6 +5,8 @@
     * SocketExperiment.cpp
     * header.h
 2. FTP并发
+    * FTPServer.cpp
+    * FTPClient.cpp
 ***
 实验指导书上偏移计算有误，实际情况需要百度TCP、IP、UDP的头部
 根据头部各个字段的长度通过位运算得到值，某些特殊字段是网络流
